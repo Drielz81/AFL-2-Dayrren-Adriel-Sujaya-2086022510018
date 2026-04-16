@@ -1,6 +1,3 @@
-/* ===================================
-   GLOBAL STYLES & CSS VARIABLES
-   =================================== */
 :root {
     --primary-neon: #e67efe;
     --primary-purple: #9d4edd;
@@ -28,9 +25,6 @@ html, body {
     scroll-behavior: smooth;
 }
 
-/* ===================================
-   UTILITY CLASSES
-   =================================== */
 .fs-7 { font-size: 0.85rem; }
 .fs-8 { font-size: 0.75rem; }
 
@@ -46,9 +40,6 @@ html, body {
     color: var(--text-muted);
 }
 
-/* ===================================
-   NAVBAR / HEADER CUSTOMIZATION
-   =================================== */
 .custom-navbar {
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     background-color: #ffffff;
@@ -88,9 +79,6 @@ html, body {
     font-size: 0.9rem;
 }
 
-/* ===================================
-   MAIN CONTENT BACKGROUND
-   =================================== */
 .main-content-bg {
     background-color: var(--dark-bg);
     background-image: 
@@ -136,9 +124,6 @@ html, body {
     z-index: 0;
 }
 
-/* ===================================
-   HERO BANNER
-   =================================== */
 .hero-banner {
     background-image: 
         linear-gradient(135deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.6) 100%),
@@ -210,9 +195,6 @@ html, body {
     }
 }
 
-/* ===================================
-   GAME CARDS SECTION
-   =================================== */
 .game-card {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
@@ -276,9 +258,6 @@ html, body {
     display: block;
 }
 
-/* ===================================
-   CATEGORY FILTERS / BUTTONS
-   =================================== */
 .category-filters {
     display: flex;
     flex-wrap: wrap;
@@ -334,9 +313,6 @@ html, body {
     transform: translateY(0);
 }
 
-/* ===================================
-   FOOTER
-   =================================== */
 .bg-darker {
     background-color: var(--darker-bg);
     border-top: 1px solid var(--border-color);
